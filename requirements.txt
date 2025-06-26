@@ -1,5 +1,6 @@
 Abg==2.3.1
-git+https://github.com/KurimuzonAkuma/pyrogram@dev
+#git+https://github.com/KurimuzonAkuma/pyrogram@dev
+pyrofork==2.3.61
 pymongo
 motor
 requests

@@ -35,14 +35,14 @@ async def anony_boot():
     try:
         await nexichat.set_bot_commands(
             commands=[
-                BotCommand("start", "Start the bot"),
-                BotCommand("help", "Get the help menu"),
-                BotCommand("clone", "Make your own chatbot"),
-                BotCommand("cloned", "Get List of all cloned bot"),
-                BotCommand("ping", "Check if the bot is alive or dead"),
-                BotCommand("id", "Get users user_id"),
-                BotCommand("stats", "Check bot stats"),
-                BotCommand("gcast", "Broadcast any message to groups/users"),
+                BotCommand("start", "Check I'm Alive ⚡️"),
+                BotCommand("help", "Help Menu To Use The Bot 💠"),
+                BotCommand("clone", "Make Your Own Similar Bot ✨"),
+                BotCommand("cloned", "Get List Of All Cloned Bot 🧑‍🤝‍🧑"),
+                BotCommand("ping", "Check Bot Is Alive Or Dead Stats 📛"),
+                BotCommand("id", "Get Your User 🆔"),
+                BotCommand("stats", "Bot Statistics 📊 (Owner Only)"),
+                BotCommand("gcast", "Send Message To All Users (Owner Only) 🌐"),
                 
             ]
         )

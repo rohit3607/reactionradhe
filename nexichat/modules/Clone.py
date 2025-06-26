@@ -32,13 +32,10 @@ async def clone_txt(client, message):
             user_id = message.from_user.id
             await save_clonebot_owner(bot_id, user_id)
             await ai.set_bot_commands([
-                    BotCommand("start", "Start the bot"),
-                    BotCommand("help", "Get the help menu"),
-                    BotCommand("clone", "Make your own chatbot"),
-                    BotCommand("ping", "Check if the bot is alive or dead"),
-                    BotCommand("id", "Get users user_id"),
-                    BotCommand("stats", "Check bot stats"),
-                    BotCommand("gcast", "Broadcast any message to groups/users"),
+                    BotCommand("start", "Check I'm Alive ⚡️"),
+                    BotCommand("help", "Help Menu To Use The Bot 💠"),
+                    BotCommand("ping", "Check Stats ⏰"),
+                    BotCommand("id", "Get Your User 🆔"),
            
                 ])
         except (AccessTokenExpired, AccessTokenInvalid):

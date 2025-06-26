@@ -74,7 +74,7 @@ async def ping(client: Client, message: Message):
 
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
-        text=f"нey вαву!!\n{(await client.get_me()).mention} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve  αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||**➻ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➪ [Sᴜᴘᴇʀ Tᴏᴘᴘᴇʀs](https://t.me/SuperToppers) **||</b>",
+        text=f"нey вαву!!\n{(await client.get_me()).mention} ʀᴇᴀᴄᴛɪᴏɴ ʙᴏᴛ ιѕ alιve  αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||**➻ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➪ [Sᴜᴘᴇʀ Tᴏᴘᴘᴇʀs](https://t.me/SuperToppers) **||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
     if message.chat.type == ChatType.PRIVATE:

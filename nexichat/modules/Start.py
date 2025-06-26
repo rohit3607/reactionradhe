@@ -5,7 +5,7 @@ from nexichat import nexichat as app
 @app.on_message(filters.command("start"))
 async def start_message(client: Client, message: Message):
     await message.reply_text(
-                   f"""**❖ нᴇʏ  {message.from_user.first_name} !, ɴɪᴄᴇ ᴛᴏ 777 ᴍᴇᴇᴛ ʏᴏᴜ !
+                   f"""**❖ нᴇʏ  {message.from_user.first_name} !, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ !
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ● ɪ ᴀᴍ  {(await client.get_me()).mention} !

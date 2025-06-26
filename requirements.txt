@@ -1,6 +1,6 @@
 Abg==2.3.1
 #git+https://github.com/KurimuzonAkuma/pyrogram@dev
-#https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
+https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
 pyrofork==2.3.61
 pyromod==1.5
 pymongo
